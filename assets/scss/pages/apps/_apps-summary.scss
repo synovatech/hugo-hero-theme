@@ -1,8 +1,8 @@
-.work-summary {
+.apps-summary {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  .work-image {
+  .apps-image {
     max-height: 400px;
     overflow: hidden;
     img {
@@ -10,11 +10,11 @@
       height: auto;
     }
   }
-  .work-content {
+  .apps-content {
     flex: 1;
     padding: 20px;
     border-bottom: 2px solid $primary;
-    .work-title {
+    .apps-title {
       font-family: $font-family-heading;
       font-size: 1.5rem;
     }

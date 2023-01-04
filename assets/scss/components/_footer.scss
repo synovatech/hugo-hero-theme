@@ -51,6 +51,8 @@
         display: none;
         @include media-breakpoint-up(md) {
           display: inline-block;
+          height: 40px;
+          padding: 10px 8px 10px 8px;
         }
       }
     }
